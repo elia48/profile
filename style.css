@@ -39,7 +39,8 @@ section{
     border-radius: 1em;
     text-align: center;
     padding: 5em;
-    margin: 2em 40rem;
+    margin: 2em auto;
+    width: 60%;
 }
 #propic {
     border-radius: 50%;
@@ -54,6 +55,20 @@ section{
     margin-right: 0.5em;
     font-size: 3em;
 }
+@media (max-width: 425px) {
+  /* For a screen < 960px, this CSS will be read */
+  section {
+    padding: 5rem 1rem;
+    margin: 2em 0;
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .primary-btn:hover{
+    padding: 0.5em 4em;
+  }
+}
+
 footer{
     text-align: center;
 }
