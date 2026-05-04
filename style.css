@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1, h2, h3, h4 {
+    color: rgb(0, 200, 0);
+    text-shadow: 0 0 2px #00ff00;
+    -webkit-text-stroke: 0.01em #ffffff;
+    font-weight: 500;
+}
+p{
+    color: white;
+    font-size: 200;
+}
+a{
+    border-radius: 0.3em;
+    color: white;
+    text-decoration: none;
+    transition: padding 4s, font-size 2s, background-color 0.5s, color 0.5s;
+    font-weight: 800;
+}
+a:hover{
+    color: #00c800;
+}
+.primary-btn{
+    padding: 0.5em 1.5em;
+    margin: 1.5em;
+    background-color: #00c800;
+}
+.primary-btn:hover{
+    padding: 0.8em 12em;
+    background-color: white;
+}
+section{
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.2);
+    border-radius: 1em;
+    text-align: center;
+    padding: 5em;
+    margin: 2em 40rem;
+}
+#propic {
+    border-radius: 50%;
+}
+#link-list{
+    padding-left: 0;
+}
+#link-list li{
+    list-style: none;
+    display: inline;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 3em;
+}
+footer{
+    text-align: center;
+}
